@@ -23,7 +23,6 @@ public class CategoriaResource {
 	public ResponseEntity<?> buscar(@PathVariable Integer id) {
 		Categoria obj = service.buscar(id);
 		return ResponseEntity.ok().body(obj);
-
 	}
 
 }
